@@ -1,4 +1,7 @@
 {
-  "name": "freefire-max",
-  "type": "angular"
+  "name": "Freefire-max",
+  "type": "angular",
+  "integrations": {
+    "capacitor": {}
+  }
 }
