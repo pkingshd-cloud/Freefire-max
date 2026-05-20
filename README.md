@@ -1,5 +1,5 @@
-<video id="myVideo" width="400" controls>
-    <source src="yourvideo.mp4" type="video/mp4">
+<video id="myVideo" autoplay muted playsinline>
+  <source src="your-video.mp4" type="video/mp4">
 </video>
 
 <script>
@@ -10,9 +10,9 @@ let startTime = Date.now();
 video.play();
 
 video.addEventListener("ended", function () {
-    if ((Date.now() - startTime) / 1000 < totalTime) {
-        video.currentTime = 0;
-        video.play();
-    }
+  if ((Date.now() - startTime) / 1000 < totalTime) {
+    video.currentTime = 0;
+    video.play();
+  }
 });
 </script>
