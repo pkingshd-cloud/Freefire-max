@@ -1,10 +1,9 @@
 {
   "name": "freefire-max",
   "version": "1.0.0",
-  "scripts": {
-    "start": "ionic serve"
-  },
+  "private": true,
   "dependencies": {
-    "@ionic/angular": "latest"
+    "@angular/core": "^17.0.0",
+    "@ionic/angular": "^8.0.0"
   }
 }

@@ -1,1 +1,1 @@
-This is a starter Ionic project. Put your video inside assets/video.mp4 and run/build the app.
+Upload extracted files to GitHub. Do not upload the zip itself.
