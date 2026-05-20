@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Freefire Max Video App</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <video id="myVideo" width="100%" controls autoplay loop>
+    <source src="assets/video.mp4" type="video/mp4">
+  </video>
+</ion-content>
+
+<script>
+setTimeout(() => {
+  document.getElementById("myVideo").pause();
+}, 120000);
+</script>
