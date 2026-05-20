@@ -1,0 +1,10 @@
+{
+  "name": "freefire-max",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "ionic serve"
+  },
+  "dependencies": {
+    "@ionic/angular": "latest"
+  }
+}
