@@ -1,0 +1,6 @@
+{
+  "appId": "com.freefire.max",
+  "appName": "FreefireMax",
+  "webDir": "www",
+  "bundledWebRuntime": false
+}
